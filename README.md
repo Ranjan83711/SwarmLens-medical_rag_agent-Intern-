@@ -157,6 +157,9 @@ This approach makes the agent explainable and traceable, with clear step outputs
 
 ---
 
+## Challenges Faced:
+One major challenge was tuning the chunk overlap between document segments. Too little overlap caused the model to miss contextual information, while too much overlap increased redundancy and processing time — finding the right balance was crucial for retrieval accuracy. Another issue was managing multiple LLM calls efficiently during the reasoning flow. Each call introduced latency and token overhead, so optimizing the query structure and minimizing unnecessary LLM invocations was key to improving response speed and consistency.
+
 ## 👤 Author
 
 **Ranjan Kumar Yadav**
