@@ -143,6 +143,8 @@ This approach makes the agent explainable and traceable, with clear step outputs
 | `medical_rag_agent.ipynb` | Notebook version for submission                                      |
 | `requirements.txt`        | Required Python packages                                             |
 | `.env`                    | Environment configuration file                                       |
+| `agent_flow.md`           | Flow of langgraph                                       |
+
 
 ---
 
